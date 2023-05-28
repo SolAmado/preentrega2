@@ -1,0 +1,195 @@
+/* Estilos para el título */
+.titulo {
+    color: #908e95;
+    font-size: 46px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* Estilos para el subtítulo */
+.subtitulo {
+    color: #908e95;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilos para el menú de navegación */
+.menu-navegador {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+.menu-navegador ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegador ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-navegador ul li a {
+    color: #ffe4c4;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu-navegador ul li a:hover {
+    color: #fff;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #e6d1d1;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos para el cuerpo del sitio */
+body {
+    background-color: bisque;
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    color: #e6d1d1;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #908e95;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #666;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #908e95;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.caja-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: auto;
+}
+
+.contenido-footer {
+    background-color: #908e95;
+    padding: 30px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenido-footer h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contenido-footer p {
+    color: #fff;
+    margin: 0;
+}
+
+/* Media queries para vista mobile */
+@media (max-width: 767px) {
+
+    /* Estilos para el título */
+    .titulo {
+        font-size: 36px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    /* Estilos para el subtítulo */
+    .subtitulo {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Estilos para el menú de navegación */
+    .menu-navegador {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .menu-navegador ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para los párrafos */
+    p {
+        font-size: 18px;
+    }
+
+    /* Estilos para el formulario */
+    .formulario {
+        margin-top: 20px;
+    }
+
+    .formulario input[type="text"],
+    .formulario input[type="email"],
+    .formulario textarea {
+        margin-bottom: 8px;
+    }
+
+    .formulario button[type="submit"] {
+        padding: 8px 16px;
+    }
+
+    /* Estilos para el footer */
+    .caja-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
